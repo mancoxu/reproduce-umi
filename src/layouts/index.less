@@ -1,0 +1,40 @@
+.yzh-transition-side-header {
+    background: transparent;
+    // box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+    transition: all 0.2s;
+    overflow: hidden;
+}
+
+.yzh-basic-layout-wrap {
+    & > .ant-design-pro > .ant-layout-has-sider > .ant-layout > .ant-layout-header {
+        height: auto;
+    }
+}
+
+.yzh-header-wrap {
+}
+
+.ant-pro-top-nav-header-logo h1 {
+    display: none;
+}
+
+.yzh-menu-side-wrap {
+    position: relative;
+
+    .yzh-global-header-trigger {
+        position: absolute;
+        bottom: 1px;
+        left: 0;
+        cursor: pointer;
+        z-index: 11;
+        background: rgba(255, 255, 255, 0.1);
+        width: 100%;
+        text-align: center;
+        padding: 15px 0 12px;
+
+        & > .anticon {
+            font-size: 20px;
+            color: #fff;
+        }
+    }
+}

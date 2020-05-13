@@ -1,0 +1,15 @@
+lib
+node_modules
+pipeline
+scripts
+package.json
+build
+
+**/*.md
+**/*.svg
+**/*.ejs
+**/*.html
+package.json
+.umi
+.umi-production
+.gitlab-ci.yml
